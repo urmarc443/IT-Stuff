@@ -4,6 +4,8 @@ Documentation on the various IT tasks I run
 
 In this repo I will include:
 
+Hyer-V Type 1 Creation
+
 Windows Server2019
 
   How to add a user to a local machine
@@ -27,4 +29,4 @@ Splunk Enterprise Server
 
   How to configure all-in-one Splunk-Enterprise-Server
   
-  
+VMWare Type 1 and 2 Creation
