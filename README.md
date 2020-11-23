@@ -14,7 +14,7 @@ Windows Server2019
     
     Unlock disabled account due to user inactivity
 
-  How to remote to a local machine on your netowrk
+    How to remote to a local machine on your netowrk
 
 RHEL/CENTOS Server Administratrion
   How to administor a server running RHEL8/CENTOS8
