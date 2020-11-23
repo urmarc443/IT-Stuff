@@ -37,4 +37,15 @@ BASH
     Basic commands
     
     Advanced commands
+
+CMD
+    
+    Basic commands
+    Advanced commands
+
+Powershell
+    
+    Basic commands
+    Advanced commands
+    
     
