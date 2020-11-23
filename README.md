@@ -41,11 +41,29 @@ BASH
 CMD
     
     Basic commands
+    
     Advanced commands
 
 Powershell
     
     Basic commands
+    
+    Advanced commands
+
+Git
+
+    Basic commands
+    
     Advanced commands
     
+    Refining your READ-ME
     
+            Styling the READ-ME
+        
+            Creating links to other READ-ME files
+    
+    Code project
+        
+            Planning
+        
+            building a MVP
