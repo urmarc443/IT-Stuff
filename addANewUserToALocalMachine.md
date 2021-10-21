@@ -1,4 +1,4 @@
-#Addming a New User to a Local Machine
+# Addming a New User to a Local Machine
 
 <p> This will be a instruction on how to add a new user to a local machine. Whether you're in a Windows, Mac or Linux environment, you will need to understand how to add a new user to the machine. </p>
 
