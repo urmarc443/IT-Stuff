@@ -7,11 +7,11 @@ In this repo I will include:
 Hyer-V Type 1 Creation
 
 Windows Server2019
-    How to add a user to a local machine [Click](https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine)
-    How to add a user on a AD enabled environment
-    Unlock account that has been locked do to user input incorrect password
-    Unlock disabled account due to user inactivity
-    How to remote to a local machine on your netowrk
+# How to add a user to a local machine [Click](https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine)
+# How to add a user on a AD enabled environment
+# Unlock account that has been locked do to user input incorrect password
+# Unlock disabled account due to user inactivity
+# How to remote to a local machine on your netowrk
 
 RHEL/CENTOS Server Administratrion
   
