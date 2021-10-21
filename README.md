@@ -8,7 +8,7 @@ Hyer-V Type 1 Creation
 
 Windows Server2019
 
-    How to add a user to a local machine [Click](https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine)
+    How to add a user to a local machine (https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine)
   
     How to add a user on a AD enabled environment
   
