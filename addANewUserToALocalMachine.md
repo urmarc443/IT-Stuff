@@ -11,10 +11,10 @@
 ** username
 ** select default password OR have the user input at first login
 5. Navigate to computer management
-  a. Right click the start icon 
-  b. Select Computer Mangement
-  c. Select __Users/Groups__
-  d. If group requrired for user to access folders on the local machine, add the user to the groups that are associated with access
+  5. a. Right click the start icon 
+  5. b. Select Computer Mangement
+  5. c. Select __Users/Groups__
+  5. d. If group requrired for user to access folders on the local machine, add the user to the groups that are associated with access
 6. Inform the account has been created and to use a strong password of 9 or more characters consisting of: UPPER & lower case letters, numbers, and special characters.
 #### COMPLETE
 
