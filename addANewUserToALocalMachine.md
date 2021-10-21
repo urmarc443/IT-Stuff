@@ -5,7 +5,7 @@
 ## Windows
 1. Go to Start Button in the lower left-hand corner of the desktop screen
 2. Select the profile icon
-3. Select *Add New User* (Needs revision //Urmarc443//)
+3. Select **Add New User** (Needs revision //Urmarc443//)
 4. Input users info
 ** name
 ** username
@@ -13,9 +13,9 @@
 5. Navigate to computer management
     1. Right click the start icon 
     2. Select Computer Mangement
-    3. Select __Users/Groups__
+    3. Select **Users/Groups**
     4. If group requrired for user to access folders on the local machine, add the user to the groups that are associated with access
-6. Inform the account has been created and to use a strong password of 9 or more characters consisting of: UPPER & lower case letters, numbers, and special characters.
+6. Inform the user the account has been created and to use a strong password of 9 or more characters consisting of: UPPER & lower case letters, numbers, and special characters.
 #### COMPLETE
 
 ## Mac
