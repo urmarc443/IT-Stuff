@@ -4,11 +4,6 @@
 
 ## This repo I will include:
 
-### Hyer-V Type 1 Creation
-* Some text [example link]
-* Some text [example link]
-* Some text [example link]
-
 ### Windows Server2019
 * How to add a user to a local machine [Click](https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine)
 * How to add a user on a AD enabled environment
