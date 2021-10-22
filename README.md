@@ -6,10 +6,10 @@
 
 ### Windows Server2019
 * How to add a user to a local machine [Click](https://github.com/urmarc443/IT-Stuff/blob/main/addANewUserToALocalMachine.md)
-* How to add a user on a AD enabled environment [example link]()
-* Unlock account that has been locked do to user input incorrect password [example link]()
-* Unlock disabled account due to user inactivity  [example link]()
-* How to remote to a local machine on your netowrk [example link]()
+* How to add a user on a AD enabled environment [Click](https://github.com/urmarc443/IT-Stuff/blob/main/HowToAdd_AN_UserOnAn_AD_EnabledEnvironment.md)
+* Unlock account that has been locked do to user input incorrect password [Click](https://github.com/urmarc443/IT-Stuff/blob/main/UnlockAccountThatHasBeenLockedDoToUserInputIncorrectPassword.md)
+* Unlock disabled account due to user inactivity  [Click](https://github.com/urmarc443/IT-Stuff/blob/main/UnlockDisabledAccountDueToUserInactivity.md)
+* How to remote to a local machine on your netowrk [Click](https://github.com/urmarc443/IT-Stuff/blob/main/HowToRemoteToALocalMachineOnYourNetowrk.md)
 
 ### RHEL/CENTOS Server Administratrion
 * How to administor a server running RHEL8/CENTOS8 [example link]()
