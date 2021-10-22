@@ -25,8 +25,8 @@
 * Some text [example link]
 
 ### BASH
-* Basic commands [click]()
-* Advanced commands[Click]()
+* Basic commands [Click]()
+* Advanced commands [Click]()
 
 ### CMD
 * Basic commands[Click]()
@@ -41,8 +41,8 @@
 * Advanced commands [Click]()
 * Refining your READ-ME
     * Styling the READ-ME
-- [x] Creating links to other READ-ME files
-- [ ] complete supporting pages in links
+    - [x] Creating links to other READ-ME files
+    - [ ] complete supporting pages in links
     
 ### Code project
 * Planning [Click]()
