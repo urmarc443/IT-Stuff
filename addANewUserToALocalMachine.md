@@ -19,5 +19,24 @@
 #### COMPLETE
 
 ## Mac
+1. Press **Super** and **Space** at the same time to bring up spotlight search
+2. type system preferences
+3. navigate to **Users and Groups** (Needs revision //Urmarc443//)
+4. Click the lock icon in bottom left of window
+5. Enter administrator password
+6. Click the plus button under user colum on the left of the window
+7. Enter user's name and groups
+8. Click appropriate check boxes Needs revision //Urmarc443//
 
 ## Linux
+1. Open terminal application as administrator user
+2. Type the commmand `sudo adduser <actual name of user>`
+3. Enter password
+4. Enter default password
+5. Enter full name
+6. Enter Room Number
+7. Enter Work Phone
+8. Enter Home Phone
+9. Enter Other (any other details you want to be included)
+10. You will be prompted to confirm the details of the new account: *Is the information correct? [Y/n]*
+* If you press **Enter** key on the keyboard the Default selection is the uppercase leter in brackets (in this case the Y is default).
