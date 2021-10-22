@@ -25,24 +25,25 @@
 * Some text [example link]
 
 ### BASH
-* Basic commands
-* Advanced commands
+* Basic commands [click]()
+* Advanced commands[Click]()
 
 ### CMD
-* Basic commands
-* Advanced commands
+* Basic commands[Click]()
+* Advanced commands[Click]()
 
 ### Powershell
-* Basic commands
-* Advanced commands
+* Basic commands [Click]()
+* Advanced commands [Click]()
 
 ### Git
-* Basic commands
-* Advanced commands
+* Basic commands [Click]()
+* Advanced commands [Click]()
 * Refining your READ-ME
-** Styling the READ-ME
+    * Styling the READ-ME
 - [x] Creating links to other READ-ME files
+- [ ] complete supporting pages in links
     
 ### Code project
-* Planning
-* building a MVP
+* Planning [Click]()
+* building a MVP [Click]()
