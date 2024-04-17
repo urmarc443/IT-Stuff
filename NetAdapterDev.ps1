@@ -16,28 +16,22 @@ function ClearAllIPs
     [CmdletBinding()]
     param
     (
-        [Parameter()]
-        [string]
+        [Parameter()][string]
         $IPType = "IPv4",
 
-        [Parameter()]
-        [string[]]
+        [Parameter()][string[]]
         $Adapters,
 
-        [Parameter()]
-        [string]
+        [Parameter()][string]
         $IP,
 
-        [Parameter()]
-        [string]
+        [Parameter()][string]
         $Mask,
 
-        [Parameter()]
-        [string]
+        [Parameter()][string]
         $DNS,
 
-        [Parameter()]
-        [string]
+        [Parameter()][string]
         $Gateway,        
         
     )
