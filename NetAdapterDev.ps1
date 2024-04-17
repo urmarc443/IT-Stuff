@@ -10,6 +10,66 @@ $TIMEOUT_COUNT = 0
 #$job = Start-Job -ScriptBlock { Test-Connection -TargetName (Get-Content -Path "Servers.txt") }
 #$Results = Receive-Job $job -Wait
 
+
+function ClearAllIPs
+{
+    [CmdletBinding()]
+    param
+    (
+        [Parameter()]
+        [string]
+        $IPType = "IPv4",
+
+        [Parameter()]
+        [string[]]
+        $Adapters,
+
+        [Parameter()]
+        [string]
+        $IP,
+
+        [Parameter()]
+        [string]
+        $Mask,
+
+        [Parameter()]
+        [string]
+        $DNS,
+
+        [Parameter()]
+        [string]
+        $Gateway,        
+        
+    )
+
+    if ($Adapters -eq $null)
+    {
+        $Adapters = (Get-NetAdapter).Name | sort    
+    }
+
+    Foreach ($adapter in $Adapters
+    {
+        if ((Get-NetAdapter $adapter).Status -ne "Up")
+        {
+            Write-Host "Enabling adapter: $adapter"
+            Enable-NetAdapter -Name $adapter -Confirm:$false
+            sleep 3
+        }
+        if ((Get-NetIPAddress -InterfaceAlias $adapter).IPv4Address)
+        {
+            Remove-NetIPAddress -AddressFamily $IPType -InterfaceAlias $adapter -Confirm:$false
+        }
+        if ((Get-NetIPConfiguration -InterfaceAlias $adapter).IPv4DefaultGateway)
+        {
+            Remove-NetRoute -AddressFamily $IPType -InterfaceAlias $adapter -Confirm:$false
+        }
+        Write-Host "Disabling Adapter: $adapter"
+        Disable-NetAdapter -Name $adapter -Confirm:$false
+        sleep 3
+    }
+
+}
+
 while ($conn -eq $false)
 {
     if ($TIMEOUT_COUNT -eq 3)
