@@ -1,0 +1,51 @@
+########################################
+## Some basic iptables rules that can be
+## extensively referenced with comments
+## like this and whcih will remain
+## persistant across reboots
+########################################
+
+# This line indicated the start of the
+# filter table
+*filter
+
+# Here are the default policies for each
+# chain.
+# If this server were also acting
+# as firewall for another server, then
+# we would also change the FORWARD chain
+# default  to DROP as well
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+
+# Here we begin the basic input rules:
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -i lo -m comment --comment "Loopback interface" -j ACCEPT
+
+# Some rules restricting ssh traffic to the server
+# Only allow SSH from the local subnet 192.168.1.0/24
+-A INPUT -s 192.168.1.0/24 -p tcp -m tcp --dport 22 -m comment --comment "Only local subnet can ssh in" -j ACCEPT
+
+# In this section, include rules pertatining to public web access
+-A INPUT -p tcp -m tcp --dport 80 -j ACCEPT
+-A INPUT -p tcp -m tcp --dport 443 -j ACCEPT
+
+########################################
+# This is the default REJECT line that
+# comes pre-configured on this server.
+# NOTE: We've commented it out and
+# replaced it with a rule that allows us
+# to log dropped traffic
+########################################
+#-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A INPUT -j LOG --log-prefix "DROPPED_INGRESS: "
+
+# Here we begin the basic forward rules,
+# if we had any.
+# For now we keep this rule
+# as-is.
+-A FORWARD -j REJECT --reject-with icmp-host-prohibited
+
+COMMIT
